@@ -95,3 +95,15 @@ Date library
 require "date"
 leap?, cweek, cday (calendar week, calendar day)
 Date.today, Time.now, to_date(), to_time(), next_day, next_year,...
+
+### Enumerable
+
+Things which can be counted, like array, maps,... (strings are sorta enumerable)
+
+### Scope
+
+![alt text](image-4.png)
+
+### find
+
+![alt text](image-5.png)
