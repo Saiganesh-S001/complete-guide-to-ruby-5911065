@@ -51,3 +51,18 @@ array = [*range] => \* splat operator - expands out the range to array
 ##### Constants
 
 ALL_CAPS_ARE_CONSTANTS
+
+### If and Unless
+
+if product.visible?
+end
+
+unless product.sold_out?
+end
+
+unless cart.empty? # unless this stmt is true
+end
+
+### Iterators
+
+![Iterators](image-1.png)
