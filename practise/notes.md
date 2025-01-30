@@ -15,6 +15,7 @@ Every method returns an object. Interpolation is not possible in single quoted s
 arr = [] and arr[5] = 10 works and array can have diff types of objects inside it.
 arr[ind,len] , arr[f_ind..l_ind]
 
+- arr.each_index { |i| puts i }
 - arr.compact - removes empty positions
 - arr.uniq - removes duplicate elements
 - arr.include?(ele) - true or false
@@ -70,3 +71,27 @@ end
 #### By class
 
 ![Iterators by class](image-2.png)
+
+#### Include #!/usr/bin/env ruby to let the unix to use ruby compiler (to make the code portable to any system)
+
+### Ruby scripting
+
+exit (some advanced ruby stuff can prevent this exit from happening) && exit! (no one can stop me)
+abort("exit with a message")
+
+print # without a line return
+puts # with a line return
+chop # pops the last char
+chomp #pops the last char only if its newline
+
+### Dates
+
+![alt text](image-2.png)
+Time
+yday - day of the year , wday - day of the week, sunday?,.. , strftime, zone, utc?, gmt?..
+
+![alt text](image-3.png)
+Date library
+require "date"
+leap?, cweek, cday (calendar week, calendar day)
+Date.today, Time.now, to_date(), to_time(), next_day, next_year,...
