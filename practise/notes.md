@@ -66,3 +66,7 @@ end
 ### Iterators
 
 ![Iterators](image-1.png)
+
+#### By class
+
+![Iterators by class](image-2.png)
