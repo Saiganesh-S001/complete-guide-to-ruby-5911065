@@ -104,6 +104,31 @@ Things which can be counted, like array, maps,... (strings are sorta enumerable)
 
 ![alt text](image-4.png)
 
-### find
+### find && Map
 
 ![alt text](image-5.png)
+Map needs to return elements (if else condition), map! changes the actual array
+
+### Inject/ Reduce
+
+Similar to reduce, use of accumulator
+arr.inject(memo_init_val) {|memo, n| memo+n} -> no initial value means, the memo will take the 0th ind and start oper from 1st ind
+
+### Sorting
+
+v1 <=> v2
+
+arr.sort {|a,b| a<=>b}
+arr.sort_by { |a| a.lenght } -> slower
+
+Hashing sort
+![alt text](image-6.png)
+
+### Merge 
+1. Without a block
+h1.merge(h2) -> picks up values from h2 if there is any collision
+2. With a block
+h1.merge(h2) {|key,old, new| new}
+
+code block will be called when there is key conflict
+
