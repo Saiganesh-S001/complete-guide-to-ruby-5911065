@@ -132,3 +132,8 @@ h1.merge(h2) {|key,old, new| new}
 
 code block will be called when there is key conflict
 
+### Methods
+- Variables declared outside the method cannot be accessed by the method
+- When we have a lot of arguments as options to pass, we can use hash of options 
+like def func(arg= {}) and use it like option1 = arg[:key] || defualt value
+- Methods return the value of last operation in the method.
