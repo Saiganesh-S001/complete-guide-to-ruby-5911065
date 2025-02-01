@@ -39,7 +39,7 @@ has_value?()
 
 ### Booleans
 
-![alt text](image.png)
+![alt images/text](image.png)
 
 ### Ranges
 
@@ -66,11 +66,11 @@ end
 
 ### Iterators
 
-![Iterators](image-1.png)
+![Iterators](images/image-1.png)
 
 #### By class
 
-![Iterators by class](image-2.png)
+![Iterators by class](images/image-2.png)
 
 #### Include #!/usr/bin/env ruby to let the unix to use ruby compiler (to make the code portable to any system)
 
@@ -86,11 +86,11 @@ chomp #pops the last char only if its newline
 
 ### Dates
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 Time
 yday - day of the year , wday - day of the week, sunday?,.. , strftime, zone, utc?, gmt?..
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 Date library
 require "date"
 leap?, cweek, cday (calendar week, calendar day)
@@ -102,11 +102,11 @@ Things which can be counted, like array, maps,... (strings are sorta enumerable)
 
 ### Scope
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ### find && Map
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 Map needs to return elements (if else condition), map! changes the actual array
 
 ### Inject/ Reduce
@@ -122,7 +122,7 @@ arr.sort {|a,b| a<=>b}
 arr.sort_by { |a| a.lenght } -> slower
 
 Hashing sort
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ### Merge 
 1. Without a block
@@ -157,8 +157,12 @@ def noise = (val)
 end
 ```
 
+``puts sprintf("$%.2f", ring.price) # $35.10``
+
  #### Attribute methods
 
  1. attr_reader
  2. attr_writer
  3. attr_accessor (both reader and writer)
+  
+![alt text](images/image6.png)
