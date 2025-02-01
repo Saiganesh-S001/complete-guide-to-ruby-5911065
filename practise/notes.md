@@ -137,3 +137,28 @@ code block will be called when there is key conflict
 - When we have a lot of arguments as options to pass, we can use hash of options 
 like def func(arg= {}) and use it like option1 = arg[:key] || defualt value
 - Methods return the value of last operation in the method.
+
+### Classes
+
+require_relative 'classes/person' - required to import classes
+An instance has access to the instance variable but instance variables (@...) cant be accessed outside the instance  
+For an instance varible @noise,
+```
+attr_accessor :noise, :sound
+
+#getter
+def noise
+  @noise
+end
+
+#setter
+def noise = (val) 
+  @noise = val
+end
+```
+
+ #### Attribute methods
+
+ 1. attr_reader
+ 2. attr_writer
+ 3. attr_accessor (both reader and writer)
