@@ -1,22 +1,44 @@
-Vowels = ['a', 'e', 'i', 'o', 'u']
+VOWELS = ['a', 'e', 'i', 'o', 'u']
 
-def pig_latin(word)
+def find_vowel_in_array(arr = [])
+  arr.find_index { |ele| VOWELS.include?(ele) }
+end
+
+def pig_latin(word = "")
+
+  word.downcase! # Converting the word into downcase
+
   cons_cluster = ""
   word.each_char do |letter|
-    if Vowels.include?(letter)
+    if VOWELS.include?(letter)
       break
     else
       cons_cluster << word[0]
       word = word[1..-1]
     end
   end
-  word << cons_cluster
-  word << "ay"
-  puts word
+  word + cons_cluster + "ay"
 end
 
-words = ["iglue", "happy" , "hgappy"]
+def pig_latin_arr(word = "")
+  word.downcase!  
+  char_arr = word.split('')
+  first_vowel_pos = find_vowel_in_array(char_arr)
+
+  if first_vowel_pos.to_i > 0
+    front_str = char_arr[0...first_vowel_pos]
+    main_str = char_arr[first_vowel_pos..-1]
+  else
+    front_str = []
+    main_str = char_arr
+  end
+  main_str.join + front_str.join + "ay"
+end
+
+
+
+words = ['pig', 'latin', 'elevator', 'glove', 'where', 'Ruby']
 
 words.each do |word|
-  pig_latin(word)
+  puts pig_latin(word)
 end
