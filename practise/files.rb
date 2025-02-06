@@ -1,4 +1,4 @@
-# puts File.dirname(__FILE__), File.expand_path(__FILE__), __FILE__, __dir__ # relative dir, absolute path, relative path, abs dir
+puts File.dirname(__FILE__), File.expand_path(__FILE__), __FILE__, __dir__ # relative dir, absolute path, relative path, abs dir# puts File.dirname(__FILE__), File.expand_path(__FILE__), __FILE__, __dir__ # relative dir, absolute path, relative path, abs dir
 
 # puts "This file (relative): " + __FILE__
 # puts "This file (absolute): " + File.expand_path(__FILE__)
