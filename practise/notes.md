@@ -235,3 +235,6 @@ class Radio
   
 end
 ```
+
+# To use Enumerable as a mixin, a class must define #each
+![alt text](image.png)
