@@ -241,3 +241,12 @@ end
 
 # Files
 To get instance - use File.new and open doesnot provide instance
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+Changing Directories
+
+![alt text](image-4.png)

@@ -29,3 +29,24 @@ File.open("text.txt", 'r') do |file|
     puts line.chomp.reverse
    end
 end
+
+
+file = File.read("text.txt")
+puts file
+
+puts "-----"
+
+lines = File.readlines("text.txt")
+lines.map! {|line| line.chomp}
+puts lines
+
+lines[1] += " With updation"
+
+new_file_data = lines.join("\n") + "\n"
+puts new_file_data
+
+begin
+   File.write("practise/text.txt", new_file_data)
+rescue => e
+   puts e.message
+end
