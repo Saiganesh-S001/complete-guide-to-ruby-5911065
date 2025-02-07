@@ -69,7 +69,7 @@ module ListMaker
     end
 
     def get_number
-      print "\nWhich number? "
+      print "\nWhicth number? "
       gets.chomp
     end
 
