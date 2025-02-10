@@ -254,5 +254,5 @@ Changing Directories
 
 ## TODO
 Treasure Challenge
-List Maker Challenge 
-Practice CSV, YAML
+<!-- List Maker Challenge  -->
+<!-- Practice CSV, YAML -->
