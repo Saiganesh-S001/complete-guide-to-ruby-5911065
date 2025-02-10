@@ -6,6 +6,7 @@ def number_to_currency(value)
   sprintf('$%.2f', value.to_f)
 end
 
+
 # Read template file containing the overdue notice
 
 # Read CSV file to get list of overdue notices

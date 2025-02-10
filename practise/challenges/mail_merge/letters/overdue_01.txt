@@ -1,0 +1,9 @@
+Dear Margaret Lawson
+
+The following library book is overdue.
+
+Title: The Great Gatsby
+Days Overdue: 20
+Overdue fee: $5.00
+
+Thank you for your prompt attention to this matter.

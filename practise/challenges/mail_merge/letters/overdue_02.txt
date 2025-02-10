@@ -1,0 +1,9 @@
+Dear Willie Cortez
+
+The following library book is overdue.
+
+Title: Ulysses
+Days Overdue: 18
+Overdue fee: $4.50
+
+Thank you for your prompt attention to this matter.

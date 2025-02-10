@@ -1,0 +1,9 @@
+Dear Ina Rodriguez
+
+The following library book is overdue.
+
+Title: Heart of Darkness
+Days Overdue: 17
+Overdue fee: $4.25
+
+Thank you for your prompt attention to this matter.
